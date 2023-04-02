@@ -2,16 +2,24 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Demo from './component/Demo';
+import DemoClass from './Component/DemoClass';
+import Home from './Component/HomeComponent/Home';
+import DataBinding from './DataBinding/DataBinding';
+import HandleEvent from './HandleEvent/HandleEvent';
+import DemoLogin from './State/DemoLogin';
+import DemoState from './State/DemoState';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 // Nội dung website sẽ được hứa toàn bộ trong hàm render
 root.render(
   <div>
-    <Demo />
-    <Demo />
-    <Demo />
-    <Demo />
+    {/* <Home /> */}
+    {/* <DataBinding/> */}
+    {/* <HandleEvent/> */}
+    {/* <DemoLogin/> */}
+    <DemoState/>
   </div>
 );
+
+
