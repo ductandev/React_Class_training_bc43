@@ -1,3 +1,4 @@
+// rcc: react component class
 import React, { Component } from 'react';
 
 
@@ -12,7 +13,8 @@ export default class DemoClass extends Component {
     render() {
 
 
-        //Nội dung component sẽ chứa trong 1 thẻ bất kì
+        // Nội dung component sẽ chứa trong 1 thẻ bất kì.
+        // Muốn xuống dòng thì bỏ trong ngoặc ()
         return (
             <div>
                 <button className='btn btn-success'> Nội dung component </button>
@@ -24,7 +26,6 @@ export default class DemoClass extends Component {
                         <p className="card-text">Body</p>
                     </div>
                 </div>
-
             </div>
         )
     }

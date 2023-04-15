@@ -19,7 +19,7 @@ export default class BaiTapChonXe extends Component {
     handleChangeColor =  (color) => {
         this.setState({
            srcCar: `./img/products/${color}-car.jpg`
-       }, ()=> {
+       }, ()=> {                                        // call back
            console.log(this.state);
 
        });

@@ -8,7 +8,6 @@ export default class DemoState extends Component {
             <div>
                 <DemoLogin />
                 <BaiTapChonXe />
-                
             </div>
         )
     }

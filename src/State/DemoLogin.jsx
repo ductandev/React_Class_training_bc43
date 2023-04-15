@@ -9,15 +9,18 @@ export default class DemoLogin extends Component {
 
     
     handleSubmit = (event) => {
-        event.preventDefault();
-        // this.state.result = 'Đăng nhập thành công !'; //Không được thay đổi state trực tiếp vì giao diện sẽ không render lại.
+        event.preventDefault(); // chặn sự kiện load của trang
+        // this.state.result = 'Đăng nhập thành công !'; 
+        //Không được thay đổi state trực tiếp vì giao diện sẽ không render lại.
         let newState = {   
             result: 'đăng nhập thành công !'
         }
-        /*
-            this.setState: Là phương thức có sẵn của component. Dùng để thay đổi giá trị state, đồng thời làm giao diện render lại với giá trị state mới
-        */
-        this.setState(newState);
+
+        /* this.setState: Là phương thức có sẵn của component. Dùng để thay đổi giá trị state,
+        đồng thời làm giao diện render lại với giá trị state mới*/
+        /* this.setState : hàm này có 2 chức năng là gán lại giá trị mới cho stage và
+         thay đổi trên giao diện --> gọi giao diện render lại*/ 
+        this.setState(newState); 
     }
     render() {
         return (
