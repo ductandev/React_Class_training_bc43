@@ -19,7 +19,7 @@ export default class BaiTapChonXe extends Component {
     handleChangeColor =  (color) => {
         this.setState({
            srcCar: `./img/products/${color}-car.jpg`
-       }, ()=> {                                        // call back
+       }, ()=> {                          // call back function để trả đúng giá trị
            console.log(this.state);
 
        });
@@ -41,7 +41,7 @@ export default class BaiTapChonXe extends Component {
                 <button className='btn btn-danger mx-2' onClick={()=>{
                     this.handleChangeColor('red')
                 }}>Red Car</button>
-                <button className='btn btn-light mx-2' onClick={()=>{
+                <button className='btn btn-light mx-2 border' onClick={()=>{
                     this.handleChangeColor('steel')
                 }}>Steel Car</button>
                 <button className='btn btn-secondary mx-2' onClick={()=>{
