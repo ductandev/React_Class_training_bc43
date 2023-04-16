@@ -6,11 +6,15 @@
 + databinding: hai dấu '{}' gọi là databinding <br>
 ![image](https://user-images.githubusercontent.com/42485856/232319607-20ad3cb6-0348-40a5-aa31-f27dfd028e55.png)
 
-+ handleEvent
-![image](https://user-images.githubusercontent.com/42485856/232319882-6daeb9cb-5e90-4e89-b99d-322eaaf2622c.png)
++ handleEvent <br>
+![image](https://user-images.githubusercontent.com/42485856/232325824-d1f38d24-8dbe-40a3-81f4-26b579f2f390.png)
 
-+ state và rerender
-![image](https://user-images.githubusercontent.com/42485856/232320689-072031dc-d56d-4336-96ed-6ff8995997a0.png)
++ state, setState và rerender <br>
+ --page loggin <br>
+![image](https://user-images.githubusercontent.com/42485856/232325610-0e426d1b-0893-4575-8333-d897d7df7bf2.png) <br>
+ --Btchọnxe <br>
+![image](https://user-images.githubusercontent.com/42485856/232325548-fe4f582f-5a53-47ed-bec5-701fd98e616d.png)
+
 
 
 ## Buổi 3: react_renderWithMap_renderCondition_style
