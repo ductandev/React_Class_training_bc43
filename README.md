@@ -1,5 +1,19 @@
-## buoi1_2_state_component_databinding
-## buoi_3_react_renderWithMap_renderCondition_style
+## Buổi 1_2: component_databinding_handleEvent_state
++ Component <br>
+![image](https://user-images.githubusercontent.com/42485856/232319945-5259da23-27e1-4679-a9ff-63f9469c68b9.png)
+![image](https://user-images.githubusercontent.com/42485856/232316710-c14ba10f-c486-4532-b240-d8adc80fc616.png)
+
++ databinding: hai dấu '{}' gọi là databinding <br>
+![image](https://user-images.githubusercontent.com/42485856/232319607-20ad3cb6-0348-40a5-aa31-f27dfd028e55.png)
+
++ handleEvent
+![image](https://user-images.githubusercontent.com/42485856/232319882-6daeb9cb-5e90-4e89-b99d-322eaaf2622c.png)
+
++ state và rerender
+![image](https://user-images.githubusercontent.com/42485856/232320689-072031dc-d56d-4336-96ed-6ff8995997a0.png)
+
+
+## Buổi 3: react_renderWithMap_renderCondition_style
 
 ## Buổi 4: Props
 <ul>
