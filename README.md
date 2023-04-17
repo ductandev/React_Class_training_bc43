@@ -5,9 +5,7 @@
 ![image](https://user-images.githubusercontent.com/42485856/232513558-df8be799-a23e-4d30-bc5c-479f3c15187b.png)
 ![image](https://user-images.githubusercontent.com/42485856/232513813-e068dc9a-8389-43c8-9b6e-dc3fd0cfe1b8.png)
 
-
-
-
+--Cấu trúc files component <br>
 ![image](https://user-images.githubusercontent.com/42485856/232319945-5259da23-27e1-4679-a9ff-63f9469c68b9.png) <br>
 ![image](https://user-images.githubusercontent.com/42485856/232316710-c14ba10f-c486-4532-b240-d8adc80fc616.png) <br>
 
@@ -24,6 +22,8 @@
 + this.setState: Là phương thức có sẵn của component. Dùng để thay đổi giá trị state, đồng thời làm giao diện render lại với giá trị state mới. <br>
 + this.setState : hàm này có 2 chức năng là gán lại giá trị mới cho stage và thay đổi trên giao diện --> gọi giao diện render lại. <br>
 </p>
+
+![image](https://user-images.githubusercontent.com/42485856/232519593-21ee2bcf-c09c-4863-ba11-c97c56de3216.png)
 
 
  --page loggin <br>
