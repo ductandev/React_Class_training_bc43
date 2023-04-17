@@ -26,12 +26,15 @@
 ![image](https://user-images.githubusercontent.com/42485856/232519593-21ee2bcf-c09c-4863-ba11-c97c56de3216.png)
 
 
- --page loggin <br>
+--Bt Page loggin <br>
 ![image](https://user-images.githubusercontent.com/42485856/232325610-0e426d1b-0893-4575-8333-d897d7df7bf2.png) <br><br>
- --Btchọnxe <br>
+--Btchọnxe <br>
 ![image](https://user-images.githubusercontent.com/42485856/232325548-fe4f582f-5a53-47ed-bec5-701fd98e616d.png) <br><br>
- --Bt ChangeFontSize <br>
-![image](https://user-images.githubusercontent.com/42485856/232327976-271d503d-230d-4266-9c62-ab519ec11873.png) <br>
+--Bt ChangeFontSize <br>
+![image](https://user-images.githubusercontent.com/42485856/232327976-271d503d-230d-4266-9c62-ab519ec11873.png) <br><br>
+--Bt DemoChangeColor <br>
+![image](https://user-images.githubusercontent.com/42485856/232526833-5fa2a667-b40d-4d7e-a153-bd8d70d670b6.png) <br><br>
+
 ![image](https://user-images.githubusercontent.com/42485856/232503459-415b0ae2-76e0-4cf1-ab14-28e3fa725977.png)
 ![image](https://user-images.githubusercontent.com/42485856/232504231-0bd26f94-8471-44cb-b0cb-d1d3b4b81935.png)
 ![image](https://user-images.githubusercontent.com/42485856/232508547-f6bf5751-9ed2-468d-b508-ff1419cfe5ad.png)
@@ -41,7 +44,7 @@
 
 
 ## Buổi 3: react_renderWithMap_renderCondition_style
-+ <b>style css</b> <br>
++ <b>style css:</b> <br>
 ![image](https://user-images.githubusercontent.com/42485856/232505628-00efaae9-6c35-491a-b4c0-103cb061cb2e.png)
 
 --Có 3 cách sử dụng css:
@@ -49,6 +52,7 @@
 ![image](https://user-images.githubusercontent.com/42485856/232515431-9142e0c8-ca4a-4919-af38-032b09592d0d.png)
 ![image](https://user-images.githubusercontent.com/42485856/232327529-13aabb13-5da6-4420-871b-97f18808ec8a.png)
 
++ <b>RenderWidthMap:</b>
 
 
 
