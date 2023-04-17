@@ -17,7 +17,7 @@
 + <b>handleEvent</b> <br>
 ![image](https://user-images.githubusercontent.com/42485856/232325824-d1f38d24-8dbe-40a3-81f4-26b579f2f390.png) <br><br>
 
-+ <b>state, setState và rerender</b> <br>
++ <b>state, setState và rerender</b>
 <p>
 + state: là thuộc tính của component để quản lý các biến thay đổi trên giao diện của 1 component <br>
 + Không được thay đổi state trực tiếp vì giao diện sẽ không render lại. <br>
@@ -46,6 +46,7 @@
 
 --Có 3 cách sử dụng css:
 ![image](https://user-images.githubusercontent.com/42485856/232504469-d6d21f14-3efd-46ec-909b-4af7bb34f9c8.png)
+![image](https://user-images.githubusercontent.com/42485856/232515431-9142e0c8-ca4a-4919-af38-032b09592d0d.png)
 ![image](https://user-images.githubusercontent.com/42485856/232327529-13aabb13-5da6-4420-871b-97f18808ec8a.png)
 
 
