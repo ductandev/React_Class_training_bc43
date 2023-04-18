@@ -51,6 +51,12 @@
 ## Buổi 3: react_renderWithMap_renderCondition_style
 + <b>style css:</b> <br>
 ![image](https://user-images.githubusercontent.com/42485856/232505628-00efaae9-6c35-491a-b4c0-103cb061cb2e.png)
+```
+-Cài thư viện để sử dụng sass
+$ npm i node-sass sass-loader
+hoặc
+Cài đặt Dart Sass bằng lệnh "$ npm i sass". Sử dụng Dart Sass sẽ không cần cài thêm sass-loader, chỉ cần cài Dart Sart là nó tự compiler được.
+```
 
 --Có 3 cách sử dụng css:
 ![image](https://user-images.githubusercontent.com/42485856/232504469-d6d21f14-3efd-46ec-909b-4af7bb34f9c8.png)
@@ -79,5 +85,9 @@
         </p>
     </li>
 </ul>
+
+![image](https://user-images.githubusercontent.com/42485856/232709259-9bf31599-ab45-48f6-8478-7dbc99e25f15.png)
+
+
 
 ## buoi5_on_tap_prop_react_router_dom_p1
