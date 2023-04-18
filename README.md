@@ -86,7 +86,15 @@ Cài đặt Dart Sass bằng lệnh "$ npm i sass". Sử dụng Dart Sass sẽ k
     </li>
 </ul>
 
-![image](https://user-images.githubusercontent.com/42485856/232709259-9bf31599-ab45-48f6-8478-7dbc99e25f15.png)
+![image](https://user-images.githubusercontent.com/42485856/232710485-22bca63f-eaa7-4dff-9801-bf42e662f3f2.png) <br><br>
+
+--BT DempProps
+
+![image](https://user-images.githubusercontent.com/42485856/232713466-73b480dc-fa60-4a93-8838-77b13f717da5.png)
+![image](https://user-images.githubusercontent.com/42485856/232714853-ad26b411-ebb5-49d1-be89-daaab579f7cf.png)
+![image](https://user-images.githubusercontent.com/42485856/232760412-0a755891-f970-4e7b-becd-8d3601e3b033.png)
+
+
 
 
 
