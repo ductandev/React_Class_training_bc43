@@ -43,7 +43,8 @@
 ![image](https://user-images.githubusercontent.com/42485856/232503459-415b0ae2-76e0-4cf1-ab14-28e3fa725977.png)
 ![image](https://user-images.githubusercontent.com/42485856/232504231-0bd26f94-8471-44cb-b0cb-d1d3b4b81935.png)
 ![image](https://user-images.githubusercontent.com/42485856/232508547-f6bf5751-9ed2-468d-b508-ff1419cfe5ad.png)
-![image](https://user-images.githubusercontent.com/42485856/232505361-cc69e513-68ea-4e7a-ba2d-a37c583059b3.png)
+![image](https://user-images.githubusercontent.com/42485856/232948382-147ac905-fe6e-4f79-8c0b-10320f34ba2c.png)
+
 
 
 
@@ -96,10 +97,9 @@ Cài đặt Dart Sass bằng lệnh "$ npm i sass". Sử dụng Dart Sass sẽ k
 ![image](https://user-images.githubusercontent.com/42485856/232792082-d3e9beca-5e80-4666-b63e-ed9cd5a41bae.png) <br><br>
 
 --BT ProductList_shoes 
-![image](https://user-images.githubusercontent.com/42485856/232823117-4311e9f4-5144-45e6-af0f-b22c16b07f88.png)
+![image](https://user-images.githubusercontent.com/42485856/232823117-4311e9f4-5144-45e6-af0f-b22c16b07f88.png) <br><br>
 
-
-
+--BT ProductDetail_phone
 
 
 
