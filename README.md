@@ -104,3 +104,5 @@ Cài đặt Dart Sass bằng lệnh "$ npm i sass". Sử dụng Dart Sass sẽ k
 
 
 ## buoi5_on_tap_prop_react_router_dom_p1
+--BT ProductDetail_phone
+![image](https://user-images.githubusercontent.com/42485856/232977465-7df836f3-5416-4282-ab16-7eb87133c6ae.png)
