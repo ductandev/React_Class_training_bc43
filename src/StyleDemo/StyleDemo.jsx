@@ -22,7 +22,7 @@ export default class StyleDemo extends Component {
         {/* truy xuất đến thuộc tính cách 2 và dùng cả bootstrap */}
         <p className={`${objectStyle['color-danger']} text-center p-3 bg-dark m-2`}>Lorem ipsum dolor sit amet.</p>
 
-
+        {/* Cách này đưa giá trị bên ngoài vô */}
         <p style={{backgroundColor:bg}}> Lorem, ipsum dolor.</p>
 
       </div>

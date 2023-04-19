@@ -41,11 +41,8 @@ export default class DemoPageLogin extends Component {
 
                         {this.renderLogin()}
 
-                       
                     </div>
                 </div>
-
-
             </div>
         )
     }

@@ -11,26 +11,78 @@ const dataPhone = [
 
 export default class ProductDetail extends Component {
 
-
     state = {
         spChiTiet: { "maSP": 3, "tenSP": "Iphone XS Max", "manHinh": "OLED, 6.5, 1242 x 2688 Pixels", "heDieuHanh": "iOS 12", "cameraSau": "Chính 12 MP & Phụ 12 MP", "cameraTruoc": "7 MP", "ram": "4 GB", "rom": "64 GB", "giaBan": 27000000, "hinhAnh": "./img/applephone.jpg" },
 
         arrGioHang: [
+            // Cái gì tính toán đc = cộng, trừ, nhân, chia, thì sẽ ko lưu trữ trong biến
             { maSP: 3, tenSP: "Iphone XS Max", giaBan: 27000000, hinhAnh: "./img/applephone.jpg", soLuong: 2 },
-
         ]
-
     }
 
 
+    tangGiamSoLuong = (maSP,soLuong) =>{
+        console.log(maSP,soLuong)
+        // Tìm ra sản phẩm được click dựa vào mã
+        let spGH = this.state.arrGioHang.find(item => item.maSP === maSP );
+        if(spGH){
+            spGH.soLuong += soLuong;
+
+            if(spGH.soLuong < 1){
+                if(window.confirm('Bạn có muốn xóa không')){
+                    this.xoaSanpham(spGH.maSP);
+                }else {
+                    spGH.soLuong -= soLuong;
+                }
+            }
+        }
+
+        // cập nhật state
+        this.setState({
+            arrGioHang: this.state.arrGioHang,
+        })
+    }
+
+
+    xoaSanpham = (maSP) =>{
+        // Dựa vào mã tìm ra index của sản phẩm cần xóa trong arrGioHang
+        let index = this.state.arrGioHang.findIndex(item => item.maSP === maSP);
+        if(index !== -1){
+            this.state.arrGioHang.splice(index,1);
+        }
+
+        // setStae để giao diện render lại
+        this.setState({
+            arrGioHang: this.state.arrGioHang,
+        })
+    }
+
+    /* State đặt ở component nào thì hàm setState viết ở component đó */
+     themGioHang = (spClick) => {
+        spClick = {...spClick, soLuong:1}
+        /* Kiểm tra sản phẩm đã có trong array giỏ hàng hay chưa ? Nếu có thì lấy ra tăng số lượng.Chưa có thì push vào.*/ 
+        let gioHang = this.state.arrGioHang;
+        let spGH = gioHang.find(item => item.maSP === spClick.maSP)
+        if(spGH){
+            spGH.soLuong += 1;
+        }else{
+            gioHang.push(spClick);
+        }
+        // Gán lại setState = state mới  
+        this.setState({
+            arrGioHang: gioHang
+        })
+     }
 
     renderProduct = () => {
         // let arrJSX
         // return arrJSX
+        // -----------------------------------------------------------------
         // Viết trả trực tiếp return luôn cho nó ngắn thay vì phải viết như trên
         return dataPhone.map((dienThoai) => {
             return <div className='col-md-4 mt-2' key={dienThoai.maSP}>
-                <Item phone={dienThoai} xemChiTiet={this.xemChiTiet} />
+                {/* xemChiTiet: call back function, truyền dưới dạng tham số */}
+                <Item  themGioHang={this.themGioHang}  phone={dienThoai}  xemChiTiet={this.xemChiTiet} />   
             </div>
         })
     }
@@ -42,18 +94,19 @@ export default class ProductDetail extends Component {
         })
     }
 
-
     render() {
         // Sử dụng bóc tách phần tử
         let { maSP, tenSP, hinhAnh, heDieuHanh, ram, rom, cameraSau, cameraTruoc, giaBan, manHinh } = this.state.spChiTiet;
+
+
         return (
             <div className='container'>
                 <h3>Giỏ hàng</h3>
-                <Cart arrGioHang={this.state.arrGioHang} />
+                <Cart tangGiamSoLuong={this.tangGiamSoLuong} xoaSanpham={this.xoaSanpham} arrGioHang={this.state.arrGioHang} />
                 <h3>Danh sách sản phẩm</h3>
                 <div className='row'>
                     {this.renderProduct()}
-                </div>
+                </div> 
                 <br />
                 <br />
                 <div className='row' style={{ minHeight: 400 }}>

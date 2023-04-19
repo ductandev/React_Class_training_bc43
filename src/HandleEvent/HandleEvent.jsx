@@ -8,13 +8,12 @@ export default class HandleEvent extends Component {
         event.target.className = 'btn btn-danger'
     }
 
-
+    
     render() {
         const handleEvent = (event) => {
             alert('hello cybersoft');
         }
     
-
 
         return (
             <div className='container'>

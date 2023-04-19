@@ -8,7 +8,7 @@ export default class TextDemo extends Component {
         // let {noiDung} = this.props.noiDung;
         // props không thể gán lai bằng giá trị khác (hằng số)
         let { name, price, img } = this.props; // Viết theo dạng bóc tách phần tử
-        // this.props.name ='abc';
+        // this.props.name ='abc';      // props không thể gán lai bằng giá trị khác (hằng số)
 
         return (
             <div className='card'>

@@ -28,6 +28,8 @@ export default class RenderWithMap extends Component {
   
 
   // CÁCH 2:
+  // .map(): Dùng để biến đổi mảng A => mảng B tương đương
+  // .map(): tạo ra mảng B tương tương mảng A dựa trên những phần tử của mảng A
   renderMapTr = () => {
     let arrJSXTr = this.products.map((prod)=>{
         return  <tr key={prod.id}>

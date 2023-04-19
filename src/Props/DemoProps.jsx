@@ -17,8 +17,6 @@ export default class DemoProps extends Component {
         }
 
 
-
-
         return (
             <div className='container'>
                 <h3>DemoProps</h3>
@@ -35,14 +33,13 @@ export default class DemoProps extends Component {
                         ghi chú 1
                     </div>
                 </Post>
-
+                {/* Props truyền được cả component */}
+                {/* children: là thẻ đặc biệt nằm giữa phần đóng mở của component */}
                 <Post info={post2} TheBaiTap={DemoChangeFontSize}> 
-                    <div className='alert alert-danger'>
+                    <div className='alert alert-danger'> 
                         ghi chú 2
                     </div>
                 </Post>
-
-
             </div>
         )
     }

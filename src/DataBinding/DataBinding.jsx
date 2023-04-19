@@ -4,7 +4,7 @@ const TITLE = 'CYBERSOFT';
 
 const renderInfo = (name, age) => {
     // Nội dung của hàm trả về trong jsx là primitive value (string, boolean, number, jsx)
-    // preferren ko đưa dc lên giao diện trực tiếp
+    // dữ liệu preferren ko đưa dc lên giao diện trực tiếp.
     return <span>{`Xin chào ${name} - ${age} tuổi`}</span>
 
 }

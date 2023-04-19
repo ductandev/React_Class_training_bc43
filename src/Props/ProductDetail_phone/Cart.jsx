@@ -3,7 +3,8 @@ import React, { Component } from 'react'
 export default class Cart extends Component {
 
     renderGioHang = () =>{
-        let {arrGioHang} = this.props;
+        let {arrGioHang, xoaSanpham, tangGiamSoLuong} = this.props;
+        
         return arrGioHang.map((sp)=>{
             return <tr key={sp.maSP}>
             <td>{sp.maSP}</td>
@@ -13,20 +14,26 @@ export default class Cart extends Component {
             </td>
             <td>{sp.giaBan}</td>
             <td>
-                <button className='mx-2 btn btn-primary'>+</button>
+                <button className='mx-2 btn btn-primary' onClick={()=>{
+                    tangGiamSoLuong(sp.maSP, 1)
+                }}>+</button>
                 {sp.soLuong}
-                <button className='mx-2 btn btn-primary'>-</button>
+                <button className='mx-2 btn btn-primary' onClick={()=>{
+                    tangGiamSoLuong(sp.maSP, -1)
+                }}>-</button>
             </td>
             <td>{sp.giaBan * sp.SoLuong}</td>
             <td>
-                <button className='btn btn-danger'>Xoá</button>
+                <button className='btn btn-danger' onClick={()=>{
+                    xoaSanpham(sp.maSP);
+                }}>Xoá</button>
             </td>
         </tr>
         })
     }
+
     // state = ??
     render() {
-        let {arrGioHang} = this.props;
         return (
             <table className='table'>
                 <thead>
