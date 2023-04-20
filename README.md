@@ -99,7 +99,8 @@ Cài đặt Dart Sass bằng lệnh "$ npm i sass". Sử dụng Dart Sass sẽ k
 --BT ProductList_shoes 
 ![image](https://user-images.githubusercontent.com/42485856/232823117-4311e9f4-5144-45e6-af0f-b22c16b07f88.png) <br><br>
 
---BT ProductDetail_phone
+--BT ProductDetail_phone <br>
+![image](https://user-images.githubusercontent.com/42485856/233314329-fa10773e-55a4-40a4-ab19-e6bc5cca0edf.png)
 ```
 1. Xây UI, hiển thị Danh sách sản phẩm, chi tiết sản phẩm
 2. Dùng renderWidthMap ".map(phone)" để render ra Danh sách sản phẩm --> và đưa thông tin sản phẩm lên UI bằng {phone.hinhAnh}, {phone.tenSP}, {phone.giaBan}
