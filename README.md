@@ -109,7 +109,18 @@ Cài đặt Dart Sass bằng lệnh "$ npm i sass". Sử dụng Dart Sass sẽ k
 5. Tách phần Danh sách sản phẩm thành compoennt <Item phone={dienThoai} xemChiTiet={this.xemChiTiet} /> và truyền Props --> lấy Props bên Item --> let {phone, xemChiTiet} = this.props; --> onClick={() =>{xemChiTiet(phone)}}
 ```
 
-
 ## buoi5_on_tap_prop_react_router_dom_p1
---BT ProductDetail_phone
+--BT ProductDetail_phone tiếp theo
+![image](https://user-images.githubusercontent.com/42485856/233352039-15ca84e2-a681-4af0-8e40-8fb156e13bd1.png)
+```
+6. Tạo component giỏ hàng <cart /> và xây dựng UI.
+7. Xác định và đặt state thay đổi cho component giỏ hàng <Cart /> ở ProducDetail. Tạo arrayObject arrGioHang:[] trong state.
+8. Truyền Props <Cart arrGioHang={this.state.arrGioHang} />  ---> tạo hàm renderGioHang = () =>{} ở <Cart />  --->  let {arrGioHang} = this.props; và databinfding thông số render ra UI table giỏ hàng
+9. Truyền Props <Cart tangGiamSoLuong={this.tangGiamSoLuong} xoaSanpham={this.xoaSanpham} arrGioHang={this.state.arrGioHang} />  ---> renderGioHang = () =>{let {arrGioHang,xoaSanPham,tangGiamSoLuong} = this.props;}
+10. Tạo hàm "themGioHang = (spClick) => {}" ở ProductDetail --> dùng ES6 gán thêm biến số lượng "spClick = {...spClick, soLuong:1}" ---> Nếu sp đã tồn tại thì tăng số lượng, nếu chưa thì cho vào mảng splick để render ra UI
+11. Tạo hàm xoaSanpham = (maSP) =>{} ở ProductDetail --> truyền props xóa sản phầm vào <Cart xoaSanpham={this.xoaSanpham} arrGioHang={this.state.arrGioHang} /> --->  renderGioHang = () =>{let {arrGioHang,xoaSanPham,tangGiamSoLuong} = this.props;} ---> onClick={()=>{xoaSanPham(sp.maSP);}}
+12. Tạo hàm tangGiamSoLuong = (maSP,soLuong) =>{} ---> truyền props <Cart tangGiamSoLuong={this.tangGiamSoLuong} xoaSanpham={this.xoaSanpham} arrGioHang={this.state.arrGioHang} /> ---> renderGioHang = () =>{let {arrGioHang,xoaSanPham,tangGiamSoLuong} = this.props;} ---> truyền onclick cho button tăng giảm
+
+```
+
 ![image](https://user-images.githubusercontent.com/42485856/232977465-7df836f3-5416-4282-ab16-7eb87133c6ae.png)
