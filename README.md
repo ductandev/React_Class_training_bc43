@@ -100,7 +100,13 @@ Cài đặt Dart Sass bằng lệnh "$ npm i sass". Sử dụng Dart Sass sẽ k
 ![image](https://user-images.githubusercontent.com/42485856/232823117-4311e9f4-5144-45e6-af0f-b22c16b07f88.png) <br><br>
 
 --BT ProductDetail_phone
-
+```
+1. Xây UI, hiển thị Danh sách sản phẩm, chi tiết sản phẩm
+2. Dùng renderWidthMap ".map(phone)" để render ra Danh sách sản phẩm --> và đưa thông tin sản phẩm lên UI bằng {phone.hinhAnh}, {phone.tenSP}, {phone.giaBan}
+3. Dùng state đặt mặc định thông tin 1 sản phẩm để hiện thị trên UI --> Đưa thông tin mặc định của 1 SP lên UI thông qua bóc tách ohần tử --> "let {maSP, tenSP,...} = this.state.spChiTiet;" --> "<p>{maSP}</p>"
+4. Xử lý sự kiện setState khi nhấn nút "xem chi Tiết" và hiển thị chi tiết sản phẩm lên UI --> Đặt sự kiện onclik cho button --> Tạo hàm "xemChiTiet =(spClick) =>{ this.setStae({ spChiTiet: spClick }) }"
+5. Tách phần Danh sách sản phẩm thành compoennt <Item phone={dienThoai} xemChiTiet={this.xemChiTiet} /> và truyền Props --> lấy Props bên Item --> let {phone, xemChiTiet} = this.props; --> onClick={() =>{xemChiTiet(phone)}}
+```
 
 
 ## buoi5_on_tap_prop_react_router_dom_p1
