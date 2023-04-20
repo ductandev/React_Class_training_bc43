@@ -122,5 +122,25 @@ Cài đặt Dart Sass bằng lệnh "$ npm i sass". Sử dụng Dart Sass sẽ k
 12. Tạo hàm tangGiamSoLuong = (maSP,soLuong) =>{} ---> truyền props <Cart tangGiamSoLuong={this.tangGiamSoLuong} xoaSanpham={this.xoaSanpham} arrGioHang={this.state.arrGioHang} /> ---> renderGioHang = () =>{let {arrGioHang,xoaSanPham,tangGiamSoLuong} = this.props;} ---> truyền onclick cho button tăng giảm
 
 ```
-
 ![image](https://user-images.githubusercontent.com/42485856/232977465-7df836f3-5416-4282-ab16-7eb87133c6ae.png)
+
+
+
+### React_router_dom <br>
+![image](https://user-images.githubusercontent.com/42485856/233355158-8f240e87-f379-44de-9a9e-6faf05401fb1.png)
+![image](https://user-images.githubusercontent.com/42485856/233358331-6e914aad-7d04-42ed-b7ba-5e72c025ab70.png)
+thẻ <navlink> dùng để chỉ  reload phần <main> khi refesh
+```
+lệnh  cài thư viện
+$ npm i react-router-dom
+
+// Cấu hình react router dom
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
+````
+![image](https://user-images.githubusercontent.com/42485856/233406004-70b6d856-5229-4ffa-8ab9-ff81306b530c.png)
+
+
+
+
+
+
