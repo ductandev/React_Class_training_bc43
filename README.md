@@ -138,8 +138,9 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 ````
 ![image](https://user-images.githubusercontent.com/42485856/233406004-70b6d856-5229-4ffa-8ab9-ff81306b530c.png)
 
-
-
+## Buổi 6: React Form
+-- <b>BT ReactFormDemo<b><br>
+![image](https://user-images.githubusercontent.com/42485856/233582587-b8351c01-8e38-40a4-bd24-a119ec0afc15.png)
 
 
 
