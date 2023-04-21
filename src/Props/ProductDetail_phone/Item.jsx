@@ -28,3 +28,15 @@ export default class Item extends Component {
         )
     }
 }
+
+
+// class ButtonThemGioHang extends Component {
+
+//     render() {
+//         return (
+//             <button className='btn btn-dark mx-2' onClick={()=>{
+//                 this.props.themGioHang(this.props.phone);
+//             }}><i className='fa fa-cart-plus'></i> Thêm giỏ hàng</button>
+//         )
+//     }
+// }

@@ -11,6 +11,7 @@ export default class Home extends Component {
     render() {
         return (
             <div>
+                <div className="mt-2"></div>
                 <Header />
                 <div className='d-flex'>
                     {/* Không set width bên trong nội dung component vì Component có thể sử dụng ở nhiều thẻ thuộc nhiều giao diện khác nhau */}
