@@ -140,7 +140,8 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 ![image](https://user-images.githubusercontent.com/42485856/233406004-70b6d856-5229-4ffa-8ab9-ff81306b530c.png) <br><br>
 
 # Buổi 6: React Form - Validation
--- Thẻ <navigate> và <NavLink> ![image](https://user-images.githubusercontent.com/42485856/233759761-f0940a72-7397-42a8-b742-8cef4a1cb70d.png) <br>
+`-- Thẻ <navigate> và <NavLink>` <br>
+![image](https://user-images.githubusercontent.com/42485856/233759761-f0940a72-7397-42a8-b742-8cef4a1cb70d.png) <br>
 ![image](https://user-images.githubusercontent.com/42485856/233759559-54869a31-3722-4f7d-a11c-f108048f2ef8.png) <br><br>
 
 -- <b>BT ReactFormDemo<b><br>
