@@ -1,4 +1,4 @@
-## Buổi 1_2: Component_databinding_handleEvent_state
+# Buổi 1_2: Component_databinding_handleEvent_state
 + <b>Component</b> <br>
 --component là 1 thẻ do mình định nghĩa trong thẻ đó chứa các nội dung html do mình biên soạn. <br>
 ![image](https://user-images.githubusercontent.com/42485856/232502477-f7d783ab-a913-464b-b76f-076784659044.png)
@@ -49,7 +49,7 @@
 
 
 
-## Buổi 3: react_renderWithMap_renderCondition_style
+# Buổi 3: react_renderWithMap_renderCondition_style
 + <b>style css:</b> <br>
 ![image](https://user-images.githubusercontent.com/42485856/232505628-00efaae9-6c35-491a-b4c0-103cb061cb2e.png)
 ```
@@ -69,7 +69,7 @@ Cài đặt Dart Sass bằng lệnh "$ npm i sass". Sử dụng Dart Sass sẽ k
 
 
 
-## Buổi 4: Props
+# Buổi 4: Props
 <ul>
     <li>
         Props là thuộc tính có sẵn của react class component (do kế thừa từ class Component) dùng để nhận giá trị từ component cha truyền vào (Component cha là nơi sử dụng thẻ). Props không thể gán lại giá trị mới.
@@ -109,7 +109,7 @@ Cài đặt Dart Sass bằng lệnh "$ npm i sass". Sử dụng Dart Sass sẽ k
 5. Tách phần Danh sách sản phẩm thành compoennt <Item phone={dienThoai} xemChiTiet={this.xemChiTiet} /> và truyền Props --> lấy Props bên Item --> let {phone, xemChiTiet} = this.props; --> onClick={() =>{xemChiTiet(phone)}}
 ```
 
-## Buổi 5: Ôn tập Props và React router dom_p1
+# Buổi 5: Ôn tập Props và React router dom_p1
 - **BT ProductDetail_phone tiếp theo** <br>
 ![image](https://user-images.githubusercontent.com/42485856/233352039-15ca84e2-a681-4af0-8e40-8fb156e13bd1.png)
 ```
@@ -121,10 +121,11 @@ Cài đặt Dart Sass bằng lệnh "$ npm i sass". Sử dụng Dart Sass sẽ k
 11. Tạo hàm xoaSanpham = (maSP) =>{} ở ProductDetail --> truyền props xóa sản phầm vào <Cart xoaSanpham={this.xoaSanpham} arrGioHang={this.state.arrGioHang} /> --->  renderGioHang = () =>{let {arrGioHang,xoaSanPham,tangGiamSoLuong} = this.props;} ---> onClick={()=>{xoaSanPham(sp.maSP);}}
 12. Tạo hàm tangGiamSoLuong = (maSP,soLuong) =>{} ---> truyền props <Cart tangGiamSoLuong={this.tangGiamSoLuong} xoaSanpham={this.xoaSanpham} arrGioHang={this.state.arrGioHang} /> ---> renderGioHang = () =>{let {arrGioHang,xoaSanPham,tangGiamSoLuong} = this.props;} ---> truyền onclick cho button tăng giảm.
 ```
-![image](https://user-images.githubusercontent.com/42485856/232977465-7df836f3-5416-4282-ab16-7eb87133c6ae.png) <br><br>
+![image](https://user-images.githubusercontent.com/42485856/232977465-7df836f3-5416-4282-ab16-7eb87133c6ae.png) <br><br><br>
 
 
-## React_router_dom <br>
+# Routing React router dom Ver.6 <br>
+![image](https://user-images.githubusercontent.com/42485856/233755569-fb43a4d1-3530-4054-b6ef-134ee138bc59.png) <br>
 ![image](https://user-images.githubusercontent.com/42485856/233355158-8f240e87-f379-44de-9a9e-6faf05401fb1.png)<br>
 ![image](https://user-images.githubusercontent.com/42485856/233358331-6e914aad-7d04-42ed-b7ba-5e72c025ab70.png)<br>
 
@@ -136,11 +137,14 @@ $ npm i react-router-dom
 // Cấu hình react router dom
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 ````
-![image](https://user-images.githubusercontent.com/42485856/233406004-70b6d856-5229-4ffa-8ab9-ff81306b530c.png)
+![image](https://user-images.githubusercontent.com/42485856/233406004-70b6d856-5229-4ffa-8ab9-ff81306b530c.png) <br><br>
 
-## Buổi 6: React Form
+# Buổi 6: React Form - Validation
 -- <b>BT ReactFormDemo<b><br>
-![image](https://user-images.githubusercontent.com/42485856/233582587-b8351c01-8e38-40a4-bd24-a119ec0afc15.png)
+![image](https://user-images.githubusercontent.com/42485856/233755837-8b1105e0-2782-40e5-8b50-3cdd1f51d805.png) <br>
+![image](https://user-images.githubusercontent.com/42485856/233582587-b8351c01-8e38-40a4-bd24-a119ec0afc15.png) <br><br>
 
 
+# Buổi 7: React Form - Life Cycle - Validation 
+![image](https://user-images.githubusercontent.com/42485856/233755925-c1af96da-f236-4a6c-a968-489e0f250614.png)
 
