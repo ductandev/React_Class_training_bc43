@@ -147,8 +147,10 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 -- <b>BT ReactFormDemo<b><br>
 ![image](https://user-images.githubusercontent.com/42485856/233755837-8b1105e0-2782-40e5-8b50-3cdd1f51d805.png) <br>
 ![image](https://user-images.githubusercontent.com/42485856/233582587-b8351c01-8e38-40a4-bd24-a119ec0afc15.png) <br><br>
-
+![image](https://user-images.githubusercontent.com/42485856/233755925-c1af96da-f236-4a6c-a968-489e0f250614.png) <br><br>
 
 # Buổi 7: React Form - Life Cycle - Validation 
-![image](https://user-images.githubusercontent.com/42485856/233755925-c1af96da-f236-4a6c-a968-489e0f250614.png)
+
+![image](https://user-images.githubusercontent.com/42485856/233784556-e448c8a1-3f0a-45d7-bbd0-93df5561157c.png)
+
 
