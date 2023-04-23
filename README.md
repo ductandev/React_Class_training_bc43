@@ -151,6 +151,12 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 
 # Buổi 7: React Form - Life Cycle - Validation 
 ![image](https://user-images.githubusercontent.com/42485856/233786306-3db32452-a977-4ecf-9768-7205e25032c1.png) <br>
-![image](https://user-images.githubusercontent.com/42485856/233784556-e448c8a1-3f0a-45d7-bbd0-93df5561157c.png) <br>
+![image](https://user-images.githubusercontent.com/42485856/233784556-e448c8a1-3f0a-45d7-bbd0-93df5561157c.png) <br><br>
 
-
+# Buổi 8: Redux
+```
+Cài đặt thư viện 
+$npm install @reduxjs/toolkit
+$npm install react-redux
+```
+![image](https://user-images.githubusercontent.com/42485856/233815569-7ec2f9f8-ae2e-491e-a58c-7d0f7587992f.png)
