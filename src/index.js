@@ -22,6 +22,7 @@ import BaiTapChonXe from "./State/BaiTapChonXe";
 import Login from "./Pages/Login";
 import Profile from "./Pages/Profile";
 import ReactFormDemo from "./ReactFormDemo/ReactFormDemo";
+import ReactLifeCycle from "./Pages/ReactLifeCycle/ReactLifeCycle";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -34,7 +35,8 @@ root.render(
                     <Route path="cars" element={<BaiTapChonXe />}></Route>
                     <Route path="login" element={<Login />}></Route>
                     <Route path="profile" element={<Profile />}></Route>
-                    <Route path="react-form" element={<ReactFormDemo />}></Route>
+                    <Route path="react-form" element= {<ReactFormDemo />}></Route>
+                    <Route path="react-lifecycle" element= {<ReactLifeCycle />}></Route>
 
                     {/* cách để đá về trang home khi ko đúng đường dẫn */}
                     <Route path="*" element={<Navigate to={"/"} />}></Route>
