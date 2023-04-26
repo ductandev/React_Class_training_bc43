@@ -1,4 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit';
+import nhanVienReducer from './reducers/nhanVienReducer';
 
 export const store = configureStore({
     // reducer: giống như thuộc tính this.state, có thể hiểu nó là 1 cái state tổng của ứng dụng
@@ -24,7 +25,7 @@ export const store = configureStore({
         },
 
         // state = 00xxx
-        nhanVienReducer: nhanVienReducer
+        nhanVienReducer: nhanVienReducer,
 
         // nhanVienReducer: (state = { maNhanVien: '0001', tenNhanVien: 'Nguyễn Văn A', luongCanBan: '1000' }, action) => {
         //     switch (action.type) {

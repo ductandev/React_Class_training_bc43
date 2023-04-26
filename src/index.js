@@ -1,23 +1,23 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import DemoClass from './Components/DemoClass';
-import Home from './Components/HomeComponent/Home';
-import DataBinding from './DataBinding/DataBinding';
-import HandleEvent from './HandleEvent/HandleEvent';
-import DemoLogin from './State/DemoLogin';
-import DemoState from './State/DemoState';
-import StyleDemo from './StyleDemo/StyleDemo';
-import RenderWithMap from './RenderWithMap/RenderWithMap';
-import DemoPageLogin from './State/DemoPageLogin';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import DemoClass from "./Components/DemoClass";
+import Home from "./Components/HomeComponent/Home";
+import DataBinding from "./DataBinding/DataBinding";
+import HandleEvent from "./HandleEvent/HandleEvent";
+import DemoLogin from "./State/DemoLogin";
+import DemoState from "./State/DemoState";
+import StyleDemo from "./StyleDemo/StyleDemo";
+import RenderWithMap from "./RenderWithMap/RenderWithMap";
+import DemoPageLogin from "./State/DemoPageLogin";
 
-import './assets/scss/index.scss';
-import DemoProps from './Props/DemoProps';
-import ProductList from './Props/ProductList/ProductList';
-import ProductDetail from './Props/ProductDetail/ProductDetail';
-//Cấu hình react router dom
+import "./assets/scss/index.scss";
+import DemoProps from "./Props/DemoProps";
+import ProductList from "./Props/ProductList_shoes/ProductList";
+import ProductDetail from "./Props/ProductDetail_phone/ProductDetail";
+// Cấu hình react router dom
 import {BrowserRouter,Routes,Route, Navigate} from 'react-router-dom'
 import HomeTemplate from './Templates/HomeTemplate';
-import Cart from './Props/ProductDetail/Cart';
+import Cart from "./Props/ProductDetail_phone/Cart";
 import BaiTapChonXe from './State/BaiTapChonXe';
 import Login from './Pages/Login';
 import Profile from './Pages/Profile';
