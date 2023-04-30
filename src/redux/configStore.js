@@ -1,5 +1,6 @@
 import { configureStore } from '@reduxjs/toolkit';
 import nhanVienReducer from './reducers/nhanVienReducer';
+import cartReducer from './reducers/cartReducer';
 
 export const store = configureStore({
     // reducer: giống như thuộc tính this.state, có thể hiểu nó là 1 cái state tổng của ứng dụng
@@ -45,11 +46,13 @@ export const store = configureStore({
         //     // imutable -> tính bất biến (do object lưu địa chỉ)
         //     return { ...state };
         // }
+
+        cartReducer: cartReducer,
     },
-    preloadedState: {
-        number: 15,
-        color: "red",
-        imgCar: "",
-        nhanVienReducer: { maNhanVien: '0001', tenNhanVien: 'Nguyễn Văn A', luongCanBan: '1000' }
-    }
+    // preloadedState: {
+    //     number: 15,
+    //     color: "red",
+    //     imgCar: "",
+    //     nhanVienReducer: { maNhanVien: '0001', tenNhanVien: 'Nguyễn Văn A', luongCanBan: '1000' }
+    // }
 });

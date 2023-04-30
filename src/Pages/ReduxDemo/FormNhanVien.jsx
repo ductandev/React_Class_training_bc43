@@ -8,7 +8,7 @@ class FormNhanVien extends Component {
     handleChangeInput = (e) => {
         let { id, value } = e.target;
 
-        // --Cách 1: acction tạo tay
+        // --CÁCH 1: acction tạo tay ( tự code)
         // const action = {
         //     // type: 'CHANGE_INFO',
         //     // Mô hình redux slice
@@ -18,7 +18,7 @@ class FormNhanVien extends Component {
         //         value
         //     }
 
-        // --Cách 2: truyển payload vào hàm
+        // --CÁCH 2: truyển payload vào hàm
         const action = changeInfo({id,value});
         
         //Đưa object {id,value} lên redux 
