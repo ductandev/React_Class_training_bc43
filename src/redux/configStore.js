@@ -1,6 +1,9 @@
 import { configureStore } from '@reduxjs/toolkit';
 import nhanVienReducer from './reducers/nhanVienReducer';
 import cartReducer from './reducers/cartReducer';
+import productReducer from './reducers/productReducer';
+
+
 
 export const store = configureStore({
     // reducer: giống như thuộc tính this.state, có thể hiểu nó là 1 cái state tổng của ứng dụng
@@ -48,6 +51,8 @@ export const store = configureStore({
         // }
 
         cartReducer: cartReducer,
+        productReducer: productReducer,
+        
     },
     // preloadedState: {
     //     number: 15,

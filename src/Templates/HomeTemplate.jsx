@@ -44,6 +44,20 @@ class HomeTemplates extends Component {
 
                 </div>
               </div>
+
+
+              <div className="nav-item dropdown">
+                <a className="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">API</a>
+                <div className="dropdown-menu" aria-labelledby="dropdownId">
+                  <NavLink className="dropdown-item nav-link" to="/api">API State</NavLink>
+                  <NavLink className="dropdown-item nav-link" to="/api-redux">API Redux State</NavLink>
+
+                </div>
+              </div>
+
+
+
+
             </div>
             <div className='w-50 text-end'>
               <NavLink className={"text-white"} to="cart-page" style={{textDecoration:'none'}}>
