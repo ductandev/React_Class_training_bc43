@@ -6,7 +6,7 @@ import { getAllProductActionApi, getDataProductAction } from '../../redux/reduce
 class RequestAPIRedux extends Component {
 
     getAllProduct = async () => {
-
+        // Lấy dữ liệu tạo thành action và đưa lên redux
         /*
             action = {
                 type:'productReducer/getDataProductAction'

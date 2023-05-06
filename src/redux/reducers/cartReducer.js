@@ -23,7 +23,7 @@ const cartReducer = createSlice({
             let productClick = { ...action.payload };
             productClick.quantity = 1;
             //Kiểm tra có trong giỏ hàng chưa => nếu chưa thì thêm vào nếu có rồi thì tăng số lượng
-            let prodCart = state.cart.find(pro => pro.id == productClick.id);
+            let prodCart = state.cart.find(pro => pro.id === productClick.id);
             console.log('prodCart', prodCart)
             if (prodCart) {
                 prodCart.quantity += 1;
@@ -43,7 +43,7 @@ const cartReducer = createSlice({
         },
         changeQuantityAction:(state,action) => {
             let {id,quantity} = action.payload;
-            let prodCart = state.cart.find(pro => pro.id == id);
+            let prodCart = state.cart.find(pro => pro.id === id);
             if(prodCart){
                 prodCart.quantity += quantity
             }

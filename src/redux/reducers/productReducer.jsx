@@ -1,6 +1,9 @@
 import { createSlice } from '@reduxjs/toolkit'
 import axios from 'axios';
+
+
 const initialState = {
+  // CÁCH GOM STATE ĐỂ DỄ QUẢN LÝ CODE
   arrProduct: [
     { id: 1, name: 'nike', price: 1000, image: 'https://picsum.photos/300/300' }
   ],
@@ -18,6 +21,8 @@ const productReducer = createSlice({
 });
 export const { getDataProductAction } = productReducer.actions
 export default productReducer.reducer
+
+
 //------------------ action thunk (action 2 function) --------------
 export const getAllProductActionApi = () => {
 
