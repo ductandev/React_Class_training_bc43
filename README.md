@@ -155,10 +155,22 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 
 # Buổi 8: Redux
 ```
+Tham khảo thêm: https://viblo.asia/p/sau-2-nam-redux-da-thay-doi-qua-nhieu-924lJGmN5PM
+    
 Cài đặt thư viện 
 $npm install @reduxjs/toolkit
 $npm install react-redux
 ```
-![image](https://user-images.githubusercontent.com/42485856/233815569-7ec2f9f8-ae2e-491e-a58c-7d0f7587992f.png)
+![image](https://github.com/ductandev/React_training_bc43/assets/42485856/717a1100-0f61-4b3d-ae93-ccf68c905ae6)
+![image](https://github.com/ductandev/React_training_bc43/assets/42485856/7a81fa2e-3794-4632-93c1-fa48a45434cc)
 ![image](https://github.com/ductandev/React_training_bc43/assets/42485856/bd33d4e9-6690-4b39-9edd-4e8a60cc48df)
+![image](https://github.com/ductandev/React_training_bc43/assets/42485856/8ea2e805-b048-4e3f-8986-594c4505d89a)
+![image](https://file.notion.so/f/s/ec34a307-53ac-4666-a537-f84a96b62f8e/ReduxDataFlowDiagram-49fa8c3968371d9ef6f2a1486bd40a26.gif?id=5e5e2dfa-988b-4a7a-a654-9a00ce54c762&table=block&spaceId=2fe3dd16-1c5c-4fac-93e3-82725d8212f4&expirationTimestamp=1683878800234&signature=G_oq1cOSXMZz_ZAojmjtA0-VFPSuQ0A7OhOOx_G4V0o)
+![image](https://github.com/ductandev/React_training_bc43/assets/42485856/18d62b95-126a-4b06-99e9-73abc256dfcf)
+![image](https://viblo.asia/p/sau-2-nam-redux-da-thay-doi-qua-nhieu-924lJGmN5PM)
+
+
+
+![image](https://user-images.githubusercontent.com/42485856/233815569-7ec2f9f8-ae2e-491e-a58c-7d0f7587992f.png)
+
 
