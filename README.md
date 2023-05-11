@@ -165,12 +165,14 @@ $npm install react-redux
 ![image](https://github.com/ductandev/React_training_bc43/assets/42485856/7a81fa2e-3794-4632-93c1-fa48a45434cc)
 ![image](https://github.com/ductandev/React_training_bc43/assets/42485856/bd33d4e9-6690-4b39-9edd-4e8a60cc48df)
 ![image](https://github.com/ductandev/React_training_bc43/assets/42485856/8ea2e805-b048-4e3f-8986-594c4505d89a)
-![image](https://file.notion.so/f/s/ec34a307-53ac-4666-a537-f84a96b62f8e/ReduxDataFlowDiagram-49fa8c3968371d9ef6f2a1486bd40a26.gif?id=5e5e2dfa-988b-4a7a-a654-9a00ce54c762&table=block&spaceId=2fe3dd16-1c5c-4fac-93e3-82725d8212f4&expirationTimestamp=1683878800234&signature=G_oq1cOSXMZz_ZAojmjtA0-VFPSuQ0A7OhOOx_G4V0o)
+![ReduxDataFlowDiagram-](https://github.com/ductandev/React_training_bc43/assets/42485856/23d99f8f-aa0e-458c-9ad4-401b838af758)
 ![image](https://github.com/ductandev/React_training_bc43/assets/42485856/18d62b95-126a-4b06-99e9-73abc256dfcf)
-![image](https://viblo.asia/p/sau-2-nam-redux-da-thay-doi-qua-nhieu-924lJGmN5PM)
+![ReduxDataFlowDiagram_1-](https://github.com/ductandev/React_training_bc43/assets/42485856/82f0ca9b-b6ae-4b69-bb15-b403e31e04d5)
+<p> Middleware sẽ được dùng khi chúng ta muốn thực hiện các lời gọi bất đồng bộ trước khi cập nhật state. Hiện tại Redux có hỗ trợ middleware mặc định là Thunk, ko như phiên bản cách đây tầm 2 năm mình dùng, khi muốn thêm Thunk thì phải install package.
+Về cơ bản thì kiến trúc và luồng hoạt động của Redux vẫn như vậy, không có gì thay đổi suốt vài năm qua.</p>
+    
+![image](https://user-images.githubusercontent.com/42485856/233815569-7ec2f9f8-ae2e-491e-a58c-7d0f7587992f.png)<br>
 
 
-
-![image](https://user-images.githubusercontent.com/42485856/233815569-7ec2f9f8-ae2e-491e-a58c-7d0f7587992f.png)
 
 
