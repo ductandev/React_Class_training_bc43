@@ -160,3 +160,5 @@ $npm install @reduxjs/toolkit
 $npm install react-redux
 ```
 ![image](https://user-images.githubusercontent.com/42485856/233815569-7ec2f9f8-ae2e-491e-a58c-7d0f7587992f.png)
+![image](https://github.com/ductandev/React_training_bc43/assets/42485856/bd33d4e9-6690-4b39-9edd-4e8a60cc48df)
+
