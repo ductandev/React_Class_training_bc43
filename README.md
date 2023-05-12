@@ -153,8 +153,10 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 ![image](https://user-images.githubusercontent.com/42485856/233786306-3db32452-a977-4ecf-9768-7205e25032c1.png) <br>
 ![image](https://github.com/ductandev/React_training_bc43/assets/42485856/28cc843b-1678-414c-bfa2-5b557fef2d83) <br>
 ![image](https://github.com/ductandev/React_training_bc43/assets/42485856/8ff08013-646a-4079-9872-38bf41011e26) <br>
-![image](https://user-images.githubusercontent.com/42485856/233784556-e448c8a1-3f0a-45d7-bbd0-93df5561157c.png) <br><br>
+![image](https://user-images.githubusercontent.com/42485856/233784556-e448c8a1-3f0a-45d7-bbd0-93df5561157c.png) <br>
+![image](https://github.com/ductandev/React_training_bc43/assets/42485856/23db5886-09f5-4cb9-be8b-7341afbae855) <br><br>
 
+    
 # Buổi 8: Redux
 ```
 Tham khảo thêm: https://viblo.asia/p/sau-2-nam-redux-da-thay-doi-qua-nhieu-924lJGmN5PM
@@ -174,6 +176,22 @@ $npm install react-redux
 Về cơ bản thì kiến trúc và luồng hoạt động của Redux vẫn như vậy, không có gì thay đổi suốt vài năm qua.</p>
     
 ![image](https://user-images.githubusercontent.com/42485856/233815569-7ec2f9f8-ae2e-491e-a58c-7d0f7587992f.png)<br>
+
+[--BT DemoTangGiamSoLuong]()
+![image](https://github.com/ductandev/React_training_bc43/assets/42485856/f3f14b53-7bfc-40bc-84a3-a4b5c73bcd8a) <br><br>
+    
+[--BT DemoBaiTapChonXe]()
+![image](https://github.com/ductandev/React_training_bc43/assets/42485856/dcebfe9a-9b24-4500-8498-30f11af981e7) <br><br>
+
+[--BT DemoFormNhanVien]()
+![image](https://github.com/ductandev/React_training_bc43/assets/42485856/715298f7-0906-46ad-89eb-0f3321e38aee) <br><br>
+    
+
+
+# Buổi 9: Redux ôn tập
+![image](https://github.com/ductandev/React_training_bc43/assets/42485856/4beb70dd-19c9-4db9-9ad4-9227b2f14da1) <br>
+![image](https://github.com/ductandev/React_training_bc43/assets/42485856/bd4f8bcd-0759-490b-b10b-919d80095762)
+
 
 
 
