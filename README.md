@@ -151,6 +151,8 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 
 # Buổi 7: React Form - Life Cycle - Validation 
 ![image](https://user-images.githubusercontent.com/42485856/233786306-3db32452-a977-4ecf-9768-7205e25032c1.png) <br>
+![image](https://github.com/ductandev/React_training_bc43/assets/42485856/28cc843b-1678-414c-bfa2-5b557fef2d83) <br>
+![image](https://github.com/ductandev/React_training_bc43/assets/42485856/8ff08013-646a-4079-9872-38bf41011e26) <br>
 ![image](https://user-images.githubusercontent.com/42485856/233784556-e448c8a1-3f0a-45d7-bbd0-93df5561157c.png) <br><br>
 
 # Buổi 8: Redux
