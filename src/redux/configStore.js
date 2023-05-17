@@ -44,10 +44,16 @@ export const store = configureStore({
         //             return temp
 
         //         }; break;
+
+        // //      CÁCH CỦA ANH BÌNH
+        //         case 'CHANGE_INFO': {
+        //             return {...state, [action.payload.id]: action.payload.value}
+
+        //         }; break;
         //     }
 
         //     // imutable -> tính bất biến (do object lưu địa chỉ)
-        //     return { ...state };
+        //     return { ...state }; 
         // }
 
         cartReducer: cartReducer,

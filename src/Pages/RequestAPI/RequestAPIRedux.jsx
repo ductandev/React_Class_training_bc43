@@ -1,3 +1,5 @@
+// CÁCH NÀY CALL API BẰNG REDUX
+
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import axios from 'axios'
@@ -13,6 +15,7 @@ class RequestAPIRedux extends Component {
                 payload: [{...},{...},{...}]
             }
 
+            // CÁCH NÀY GỌI LÀ ACCTION THUNK
             actionLoai2 = (dispatch2) => {
                 //Xử lý abcd => result => tạo action loại 1 đẩy lên redux
             }

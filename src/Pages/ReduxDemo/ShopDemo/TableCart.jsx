@@ -57,10 +57,7 @@ class TableCart extends Component {
                                 //action = {type:'cartReducer/delProductAction',payload: item.id}
 
                                 this.props.dispatch(action);
-
-
-
-
+                                
                             }}><i className='fa fa-close'></i></button>
                         </th>
                     </tr>

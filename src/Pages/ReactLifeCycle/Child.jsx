@@ -22,6 +22,7 @@ export default class Child extends PureComponent {
     return null;
   }
 
+  // Chặn component render lại
   // shouldComponentUpdate(newProps,newState) {
   //   console.log('this.props.like',this.props.like);
   //   console.log('newProps.like',newProps.like);

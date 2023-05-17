@@ -16,10 +16,14 @@ export default class ReactLifeCycle extends Component {
         console.log('constructor');
     }
 
-    // Hàm này dùng để can thiệp setState trước khi render
+    // Hàm này dùng để thay đổi State trước khi render
     static getDerivedStateFromProps(newProps, currentState) {
         console.log('getDerivedStateFromProps');
         return null
+
+        // return {
+        //     number: 2
+        // };
 
     }
 
@@ -61,20 +65,22 @@ export default class ReactLifeCycle extends Component {
             console.log('server response');
 
         }, 1000);
-        //call api
+
+        //CALL API tại đây
         console.log('componentDidMount chỉ chạy 1 lần sau render')
     }
 
 
     // Thực thi sau khi render nhận vào prop cũ trước render và state cũ trước khi render thương sử dụng để gán props vào state.
     componentDidUpdate(prevProps, prevState) {
-        //Tuyệt đối không setState khi không có điều kiện 
+        //Tuyệt đối không setState khi không có điều kiện --> vì nó sẽ tạo thành vòng lặp vô tận(infinitive)
         // this.setState({
         //     number:this.state.number + 1
         // })
         console.log('componentDidUpdate chạy sau render mỗi lần state hoặc props thay đổi');
     }
 
+    // Dùng để bắt log component bị lỗi
     componentDidCatch(error, errorInfo) {
         // You can also log the error to an error reporting service
         console.log(error, errorInfo);

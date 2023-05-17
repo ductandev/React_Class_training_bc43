@@ -151,12 +151,60 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 
 # Buổi 7: React Form - Life Cycle - Validation 
 ![image](https://user-images.githubusercontent.com/42485856/233786306-3db32452-a977-4ecf-9768-7205e25032c1.png) <br>
-![image](https://user-images.githubusercontent.com/42485856/233784556-e448c8a1-3f0a-45d7-bbd0-93df5561157c.png) <br><br>
+![image](https://github.com/ductandev/React_training_bc43/assets/42485856/28cc843b-1678-414c-bfa2-5b557fef2d83) <br>
+![image](https://github.com/ductandev/React_training_bc43/assets/42485856/8ff08013-646a-4079-9872-38bf41011e26) <br>
+![image](https://user-images.githubusercontent.com/42485856/233784556-e448c8a1-3f0a-45d7-bbd0-93df5561157c.png) <br>
+![image](https://github.com/ductandev/React_training_bc43/assets/42485856/23db5886-09f5-4cb9-be8b-7341afbae855) <br><br>
 
+    
 # Buổi 8: Redux
 ```
+Tham khảo thêm: https://viblo.asia/p/sau-2-nam-redux-da-thay-doi-qua-nhieu-924lJGmN5PM
+    
 Cài đặt thư viện 
 $npm install @reduxjs/toolkit
 $npm install react-redux
 ```
-![image](https://user-images.githubusercontent.com/42485856/233815569-7ec2f9f8-ae2e-491e-a58c-7d0f7587992f.png)
+![image](https://github.com/ductandev/React_training_bc43/assets/42485856/717a1100-0f61-4b3d-ae93-ccf68c905ae6)
+![image](https://github.com/ductandev/React_training_bc43/assets/42485856/7a81fa2e-3794-4632-93c1-fa48a45434cc)
+![image](https://github.com/ductandev/React_training_bc43/assets/42485856/bd33d4e9-6690-4b39-9edd-4e8a60cc48df)
+![image](https://github.com/ductandev/React_training_bc43/assets/42485856/8ea2e805-b048-4e3f-8986-594c4505d89a)
+![ReduxDataFlowDiagram-](https://github.com/ductandev/React_training_bc43/assets/42485856/23d99f8f-aa0e-458c-9ad4-401b838af758)
+![image](https://github.com/ductandev/React_training_bc43/assets/42485856/18d62b95-126a-4b06-99e9-73abc256dfcf)
+![ReduxDataFlowDiagram_1-](https://github.com/ductandev/React_training_bc43/assets/42485856/82f0ca9b-b6ae-4b69-bb15-b403e31e04d5)
+<p> Middleware sẽ được dùng khi chúng ta muốn thực hiện các lời gọi bất đồng bộ trước khi cập nhật state. Hiện tại Redux có hỗ trợ middleware mặc định là Thunk, ko như phiên bản cách đây tầm 2 năm mình dùng, khi muốn thêm Thunk thì phải install package.
+Về cơ bản thì kiến trúc và luồng hoạt động của Redux vẫn như vậy, không có gì thay đổi suốt vài năm qua.</p>
+    
+![image](https://user-images.githubusercontent.com/42485856/233815569-7ec2f9f8-ae2e-491e-a58c-7d0f7587992f.png)<br>
+
+[--BT DemoTangGiamSoLuong]()
+![image](https://github.com/ductandev/React_training_bc43/assets/42485856/f3f14b53-7bfc-40bc-84a3-a4b5c73bcd8a) <br><br>
+    
+[--BT DemoBaiTapChonXe]()
+![image](https://github.com/ductandev/React_training_bc43/assets/42485856/dcebfe9a-9b24-4500-8498-30f11af981e7) <br><br>
+
+[--BT DemoFormNhanVien]()
+![image](https://github.com/ductandev/React_training_bc43/assets/42485856/715298f7-0906-46ad-89eb-0f3321e38aee) <br><br>
+    
+
+
+# Buổi 9: Redux ôn tập
+![image](https://github.com/ductandev/React_training_bc43/assets/42485856/4beb70dd-19c9-4db9-9ad4-9227b2f14da1) <br>
+![image](https://github.com/ductandev/React_training_bc43/assets/42485856/bd4f8bcd-0759-490b-b10b-919d80095762)
+
+
+    
+# Buổi 10: Redux async action (call API trực tiếp && call API bằng redux)
+[--Call API trực tiếp]()
+![code](https://github.com/ductandev/React_training_bc43/assets/42485856/4c0bb386-8889-45a5-97b3-519776dd6d12)
+![image](https://github.com/ductandev/React_training_bc43/assets/42485856/1ca1d2f1-fa9f-45b1-801d-c3ee4286ce46) <br><br>
+    
+[--Call API Bằng Redux state]()
+![code](https://github.com/ductandev/React_training_bc43/assets/42485856/2f2833c7-3038-4b0c-9036-3464b138e4f7) <br>
+![code](https://github.com/ductandev/React_training_bc43/assets/42485856/cc86ed94-f9eb-43f9-b14d-4cb6ae5281fd) <br>
+![image](https://github.com/ductandev/React_training_bc43/assets/42485856/1ca1d2f1-fa9f-45b1-801d-c3ee4286ce46) <br><br>
+
+
+
+
+

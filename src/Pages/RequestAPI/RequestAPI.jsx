@@ -1,4 +1,4 @@
-// CÁCH NÀY CALL TRỰC TIẾP BẰNG LINK NHƯNG KHI BACKEND THAY ĐỔI API THÌ SẼ PHẢI ĐI TÌM TỪNG CÁI ĐƯỜNG LINK SỬA LẠI ---> CHUỐI
+// CÁCH NÀY CALL TRỰC TIẾP, BẰNG LINK NHƯNG KHI BACKEND THAY ĐỔI API THÌ SẼ PHẢI ĐI TÌM TỪNG CÁI ĐƯỜNG LINK SỬA LẠI ---> CHUỐI
 //rcredux
 import React, { Component } from 'react';
 import { connect } from 'react-redux';

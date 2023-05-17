@@ -38,9 +38,6 @@ export const getAllProductActionApi = () => {
 }
 
 
-
-
-
 //closure function: function trung gian nhận tham số cho function chính
 // let funcTrungGian = (thamSo) => {
 
