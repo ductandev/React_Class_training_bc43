@@ -193,6 +193,18 @@ Về cơ bản thì kiến trúc và luồng hoạt động của Redux vẫn nh
 ![image](https://github.com/ductandev/React_training_bc43/assets/42485856/bd4f8bcd-0759-490b-b10b-919d80095762)
 
 
+    
+# Buổi 10: Redux async action (call API trực tiếp && call API bằng redux)
+[--Call API trực tiếp]()
+![code](https://github.com/ductandev/React_training_bc43/assets/42485856/4c0bb386-8889-45a5-97b3-519776dd6d12)
+![image](https://github.com/ductandev/React_training_bc43/assets/42485856/1ca1d2f1-fa9f-45b1-801d-c3ee4286ce46) <br><br>
+    
+[--Call API Bằng Redux state]()
+![code](https://github.com/ductandev/React_training_bc43/assets/42485856/2f2833c7-3038-4b0c-9036-3464b138e4f7) <br>
+![code](https://github.com/ductandev/React_training_bc43/assets/42485856/cc86ed94-f9eb-43f9-b14d-4cb6ae5281fd) <br>
+![image](https://github.com/ductandev/React_training_bc43/assets/42485856/1ca1d2f1-fa9f-45b1-801d-c3ee4286ce46) <br><br>
+
+
 
 
 
